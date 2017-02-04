@@ -5,6 +5,6 @@ var armSchemaDocGenerator = require('../lib/index');
 
 describe('arm-schema-doc-generator', () => {
   it('started', () => {
-    assert(true, 'in the test');
+    armSchemaDocGenerator.isSetup();
   });
 });
